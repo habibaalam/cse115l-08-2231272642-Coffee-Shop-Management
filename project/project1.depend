@@ -13,12 +13,13 @@
 	<dos.h>
 	<stdlib.h>
 
-1671874671 source:c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\main.c
+1672301517 source:c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\main.c
 	<stdio.h>
 	<stdlib.h>
 	"login.h"
 	"splash.h"
 	"menu.h"
+	"order.h"
 
 1671871903 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\login.h
 	<stdio.h>
@@ -29,7 +30,13 @@
 	<dos.h>
 	<stdlib.h>
 
-1672289688 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\menu.h
+1672309369 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\menu.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1672310583 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\order.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

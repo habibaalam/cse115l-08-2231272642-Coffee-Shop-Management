@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
-struct order_item {    //global structure
-    char item[150];
+typedef struct{    //global structure
+    int item;
     int quantity;
     double price;
-   }coffee;
+   }order_item;
 
 
 
@@ -21,21 +21,21 @@ struct order_item {    //global structure
      printf("\n\n\t\t\t\t3.Display the Bill       \n");
      printf("\n\n\t\t\t\t4.Exit              \n");
      printf("\n\n\n\t\t\t=====================================================================\n\n");
-
+     printf("Enter a choice : ");
      scanf("%d", &choose);
 
 
-    /* if(choose == 1)
-       ordering();
-     else if(choose == 2)
+     if(choose == 1)
+       order();
+     /*else if(choose == 2)
        cancel();
      else if(choose == 3)
-        bill();
+        bill();*/
      else if(choose == 4)
         {
             printf("Thank You");
         }
-*/
+
      //read data fro coffeedata file
      /* char cof[25];
      FILE * fpb;
