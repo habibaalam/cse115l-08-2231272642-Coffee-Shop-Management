@@ -1,69 +1,78 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-void bill(void);
-void choose(void);
-void item(void);
+#include <conio.h>
+struct order_item {    //global structure
+    char item[150];
+    int quantity;
+    double price;
+   }coffee;
 
-//bill file coffeebill.txt
- int menu(void)
- {  //imcomplete, file is not ready
-      char cof[25];
+
+
+//bill file coffeedata.txt
+ void menu(void)
+ {    int choose;
+     printf("\n\n\n\n\n\t\t\t*****************************************************************\n\n");
+     printf("\n\t\t\t\t\tWELCOME TO RAISA'S COFFEE SHOP\n\n");
+     printf("\n\n\n\n\t\t\t*****************************************************************\n\n");
+     printf("\n\n\t\t\t\t1. Order Item\n");
+     printf("\n\n\t\t\t\t2.Cancel your order\n");
+     printf("\n\n\t\t\t\t3.Display the Bill       \n");
+     printf("\n\n\t\t\t\t4.Exit              \n");
+     printf("\n\n\n\t\t\t=====================================================================\n\n");
+
+     scanf("%d", &choose);
+
+
+    /* if(choose == 1)
+       ordering();
+     else if(choose == 2)
+       cancel();
+     else if(choose == 3)
+        bill();
+     else if(choose == 4)
+        {
+            printf("Thank You");
+        }
+*/
+     //read data fro coffeedata file
+     /* char cof[25];
      FILE * fpb;
 
-     fpb=fopen("coffeebill.txt","w");
-     fpb=fopen("coffeebill.txt","r");
-     if(fpb==NULL)
+
+     //fpb=fopen("coffeedata.txt","w");
+     //fpb=fopen("coffeebill.txt","r");
+     fpb=fopen("coffeedata.txt", "r");
+     fscanf(fpb,"%s",&cof);
+     printf("%s", cof);
+         //fgets(cof,25,fpb);
+         //puts(cof);
+
+     fclose(fpb);
+     return 0;
+ }*/
+ /*if(fpb==NULL)
      {
          printf("cannot open");
 
      }
-     printf("Enter contents to store in file : \n");
-     scanf("%s", &cof);
-     //fgets(cof,25,stdin);
-     fprintf(fpb, "%s", cof);
-     //puts(cof);
-     /*else
-        puts(cof);*/
-     fclose(fpb);
-       printf("file created and saved successfully.");
-
-
-     struct options
-     {
-         char items[40];
-         int quantity;
-         double price;
-         int data;
-         //struct *options;
-     };
+     else{
+        printf("file is opened");
+        printf("Enter the choice ");
+        gets(cof);
+        fputs(cof,fpb);
+        fclose(fpb);
+     }
+     getch;*/ //this is creating file
 
 
 
 
-     return 0;
+
+
+
+     //return 0;
  }
- void choose(void)
- {
-int choose;
-    printf("Choose an option : \n ");
-    printf("1.Order \n 2.Billing 3.Exit");
-    scanf("%d", &choose);
-    switch(choose)
-    {
-    case 1:
-        item();
-        //imcomplete, i have to add more statements
-    case 2:
-        bill();
-    case 3:
-        exit(0);
-    }
 
-
- }
-void item(void)
-{
-  //imcomplete, i have to complete it
-}
 

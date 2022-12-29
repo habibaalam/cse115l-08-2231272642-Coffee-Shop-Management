@@ -36,6 +36,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.h" />
+		<Unit filename="order.h" />
 		<Unit filename="splash.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
