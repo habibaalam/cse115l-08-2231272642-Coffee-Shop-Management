@@ -27,12 +27,14 @@ typedef struct{    //global structure
 
      if(choose == 1)
        order();
+
+
      /*else if(choose == 2)
        cancel();
      else if(choose == 3)
         bill();*/
      else if(choose == 4)
-        {
+        {   //total=price+total;
             printf("Thank You");
         }
 
