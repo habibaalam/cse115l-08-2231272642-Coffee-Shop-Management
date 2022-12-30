@@ -6,6 +6,7 @@
 void order()
 {   int item,n;
     int price;
+    int ag;
     /*order_item coffee1;
    FILE *fpord;
 
@@ -25,10 +26,12 @@ void order()
     printf("2.LATTE                 - 250tk\n");
     printf("3.REGULAR COFFEE        - 180tk\n");
     printf("4.BLACK COFFEE          - 150tk\n");
+    //printf("5.Go Back\n");
 
-    printf("choice = ");
+    printf("YOUR PREFERENCE = ");
     //scanf("%d", &coffee1.item);
      scanf("%d", &item);
+
     printf("Enter quantity :");
     scanf("%d", &n);
  //scanf("%d", &coffee1.item);
@@ -37,23 +40,65 @@ void order()
     {
         price = n*300;
         printf("Your Bill is %d tk", price);
+        printf("WANT TO CONTINUE ?\n");
+        printf("1.YES\n 2.NO\n:");
+        scanf("%d", &ag);
+            if(ag==1)
+        {
+        {
+            menu();
+            return;
+        }
+
+        }
     }
     else if(item==2)
     {
         price = n*250;
         printf("Your Bill is %d tk", price);
+         printf("WANT TO CONTINUE ?\n");
+        printf("1.YES\n 2.NO\n:");
+        scanf("%d", &ag);
+            if(ag==1)
+        {
+        {
+            menu();
+            return;
+        }
+        }
     }
     else if(item==3)
     {
         price = n*180;
         printf("Your Bill is %d tk", price);
+         printf("WANT TO CONTINUE ?\n");
+        printf("1.YES\n 2.NO\n:");
+        scanf("%d", &ag);
+            if(ag==1)
+        {
+        {
+            menu();
+            return;
+        }
+        }
     }
 
  else if(item==4)
     {
         price = n*150;
         printf("Your Bill is %d tk", price);
+         printf("WANT TO CONTINUE ?\n");
+        printf("1.YES\n 2.NO\n:");
+        scanf("%d", &ag);
+            if(ag==1)
+        {
+        {
+            menu();
+            return;
+        }
+        }
     }
+
     /*printf("\n\t\t\t\tNAME :");
     fflush(stdin);
     //gets(coffee1.item);

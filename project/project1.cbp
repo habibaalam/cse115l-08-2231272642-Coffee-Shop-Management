@@ -38,6 +38,7 @@
 		<Unit filename="menu.h" />
 		<Unit filename="order.h" />
 		<Unit filename="splash.h" />
+		<Unit filename="userinfo.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
