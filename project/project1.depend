@@ -13,35 +13,38 @@
 	<dos.h>
 	<stdlib.h>
 
-1672424781 source:c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\main.c
+1672471143 source:c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\main.c
 	<stdio.h>
 	<stdlib.h>
 	"login.h"
 	"splash.h"
 	"menu.h"
 	"order.h"
+	"userinfo.h"
 
 1671871903 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\login.h
 	<stdio.h>
 	<string.h>
 
-1672045668 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\splash.h
+1672471054 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\splash.h
 	<stdio.h>
 	<dos.h>
 	<stdlib.h>
 
-1672428571 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\menu.h
+1672471092 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\menu.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
 
-1672434702 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\order.h
-	<stdlib.h>
-	<string.h>
-	<conio.h>
+1672471540 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\order.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<conio.h>
+
+1672471186 c:\users\raisa\onedrive\desktop\cse115l-08-2231272642-coffee-shop-management\project\userinfo.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
 
