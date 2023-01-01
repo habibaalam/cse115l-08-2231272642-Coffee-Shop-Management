@@ -30,35 +30,36 @@ void order(void)
     bill(item,n,&price);
     printf("Wanna continue?(Y/N)\n");
     scanf(" %c", &ag);
-    if(ag=='N'|| ag=='n')
-    {
+    /*if(ag=='N'|| ag=='n')
+    { system("cls");
       printf("GO back");
       menu();
-    }
+    }*/
     }
  }
- if(ag=='N'|| ag=='n')
+if(ag=='N'|| ag=='n')
     {
+      system("cls");
       printf("GO back");
       menu();
     }
- printf("TOTAL PRICE : %d", price);
+ printf("TOTAL PRICE : %d\n", price);
 
 
 }
 void li(void)       /// function for showing the list of available items
 {
 
- printf("\t\t\t\t===================================================================\n");
-    printf("\t\t\t\t**************************PICK YOUR CHOICE*************************\n");
-    printf("\t\t\t\t===================================================================\n");
-    printf("\t\tMENU\n");
-    printf("\n\n");
-    printf("\t\t\t\t                  AVAILABLE ITEMS                               \n\n");
-    printf("\t\t1.MOCHA                 - 300tk\n");
-    printf("\t\t2.LATTE                 - 250tk\n");
-    printf("\t\t3.REGULAR COFFEE        - 180tk\n");
-    printf("\t\t4.BLACK COFFEE          - 150tk\n");
+     printf("\t\t\t\t===================================================================\n");
+     printf("\t\t\t\t**************************PICK YOUR CHOICE*************************\n");
+     printf("\t\t\t\t===================================================================\n");
+     printf("\t\tMENU\n");
+     printf("\n\n");
+     printf("\t\t\t\t                  AVAILABLE ITEMS                               \n\n");
+     printf("\t\t1.MOCHA                 - 300tk\n");
+     printf("\t\t2.LATTE                 - 250tk\n");
+     printf("\t\t3.REGULAR COFFEE        - 180tk\n");
+     printf("\t\t4.BLACK COFFEE          - 150tk\n");
 
 
 
