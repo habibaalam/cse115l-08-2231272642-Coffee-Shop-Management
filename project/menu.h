@@ -4,7 +4,7 @@
 #include <conio.h>
 
 
- void menu(void)
+ void menu(void)  /// main menu
  {    int choose;
      printf("\n\n\n\n\n\t\t\t*****************************************************************\n\n");
      printf("\n\t\t\t\t\tWELCOME TO RAISA'S COFFEE SHOP\n\n");
@@ -23,7 +23,7 @@
 
      else if(choose == 2)
         {
-            printf("Thank You");
+            printf("Thank You\n");
         }
 
  }

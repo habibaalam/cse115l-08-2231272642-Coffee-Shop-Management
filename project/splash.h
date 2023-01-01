@@ -2,13 +2,13 @@
 #include <dos.h>
 #include <stdlib.h>
 
-
-void splash()
-
-
+                    /// splash screen
+void splash(void)
 
 
-{  system("color 80");
+
+
+{  system("color 80");  /// for color
 
 
 printf("                          .                         \n");
@@ -51,17 +51,8 @@ printf("                    :+%%%%%%%%%%%%%%%%%%%%%%%%%%%%+.   \n");
 
 
 
-
-
-
-
-
-
-
-
-
-       sleep(2);
-       system("cls");
+       sleep(5);        /// sleep is used to wait for a specific time
+       system("cls");  /// system("cls") to clear the out put screen
 
 
 

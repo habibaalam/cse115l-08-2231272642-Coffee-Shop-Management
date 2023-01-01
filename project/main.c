@@ -4,10 +4,10 @@
 #include "splash.h"
 #include "menu.h"
 #include "order.h"
-#include "userinfo.h"
+#include "userinfo.h"   /// created header file for user information
 int main(void)
 {
-    splash();
+    splash();         /// function calling
     login();
     printf("\t\t\tWelcome to The Coffee Shop! \t\t\t\n");
     menu();

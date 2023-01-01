@@ -5,15 +5,15 @@
 #include <string.h>
 #include <stdlib.h>
 typedef struct {
-  char username[25];
+  char username[25];     ///structure
   char passwd[25];
   int total_bill;
-  }show_bill;
+  }show_bill;                           /// function for showing the information of user
 
-void userinfo(int total_price)
+void userinfo(int total_price)   /// passed total_price as an argument
 
 {
-  FILE *read_file;
+  FILE *read_file;    /// *read_file is a file pointer
   show_bill user1;
   read_file = fopen("userinfo.txt","r+");
   if(read_file == NULL)
@@ -27,6 +27,6 @@ void userinfo(int total_price)
   user1.total_bill = total_price;
   printf("Username : %s\n", user1.username);
   printf("User password: %s\n", user1.passwd);
-  printf("Your Total Bill is : %dtk\n", user1.total_bill);
+  printf("Your Current Bill is : %dtk\n", user1.total_bill);
   fprintf(read_file,"%d\n",user1.total_bill);
 }

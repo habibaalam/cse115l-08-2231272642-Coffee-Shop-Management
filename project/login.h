@@ -2,12 +2,12 @@
 #include<string.h>
 
 
-int login(void)
+int login(void)   /// login
 {
-    char fname[25];
-    char fpass[15];
-    char username[25];
-    char userpass[15];
+    char fname[25];        /// name stored in login file
+    char fpass[15];       /// password stored in login file
+    char username[25];   /// user input for name
+    char userpass[15];  /// user input for password
     FILE *fptr;
     fptr = fopen("login.txt", "r");
     if(fptr==NULL)
@@ -20,7 +20,7 @@ int login(void)
     {
         printf("Enter username : \n");
         scanf("%s", username );
-        if(strcmp(fname,username)==0)
+        if(strcmp(fname,username)==0)    /// comparing strings
             {
             printf("Enter password:  ");
             scanf("%s",userpass);
@@ -35,7 +35,7 @@ int login(void)
             else
                 printf("Username unmatched\n");
     }
-    fclose(fptr);
+    fclose(fptr);   /// file closed
     return 0;
 
         }
